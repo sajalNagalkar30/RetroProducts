@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 
 public class RetrofitClient {
-    public static final String BASE_URL = "https://alkakasbe2020.000webhostapp.com/Saree_img/";
+    public static final String BASE_URL = "https://www.pherywala.sparsematrix.co.in/pherywal/admin/";
     private static Retrofit retrofit = null;
 
     public static Retrofit getClient() {

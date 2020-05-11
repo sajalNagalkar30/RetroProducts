@@ -1,5 +1,6 @@
 package com.example.fooddishhero;
 
+import com.example.fooddishhero.GeneralFood;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
@@ -13,10 +14,10 @@ public class Food {
     @SerializedName("message")
     @Expose
     private String message;
-    @SerializedName("vegetables_count")
+    @SerializedName("Vegetables_count")
     @Expose
     private Integer vegetablesCount;
-    @SerializedName("vegetables")
+    @SerializedName("Vegetables")
     @Expose
     private List<GeneralFood> vegetables = null;
 
@@ -174,5 +175,3 @@ public class Food {
 
 
 }
-
-  

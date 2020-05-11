@@ -169,4 +169,5 @@ public class GeneralFood {
     public void setFilepath(String filepath) {
         this.filepath = filepath;
     }
+
 }
